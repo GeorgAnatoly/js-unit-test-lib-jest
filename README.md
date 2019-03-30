@@ -8,11 +8,21 @@ Compatible with tests run on NodeJS using JEST.
 
 ### Current Functionality
 Invoke a Jest test method via:
-Assert.*method*(*input*, *expected*, *message = \"\"*);
+
+Assert.*method*(*input* \<,*expected*\>);
     
 Implemented methods:
-  * Assert.equals(input, expected);
-  * Assert.type(input, expectedType);
+
+Equality:
+  * Assert.areEqual(*input*, *expected*)
+
+Type Check:
+  * Assert.is*Type*(*input*)
+    * example: Assert.isBoolean(*input*);
+
+*\"Truthiness\"*:
+  * Assert.isTrue(*input*)
+  * Assert.isFalse(*input*)
 
 #### Authors
 Blake Olinger - *Initial Author* - [email](mailto:finalyetifive@gmail.com)
