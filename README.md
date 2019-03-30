@@ -6,6 +6,9 @@ methods.
 ### Usage
 Compatible with tests run on NodeJS using JEST.
 
+### Current Functionality
+  * Assert.equals(input, expected);
+  * Assert.type(input, expectedType);
 
 #### Authors
 Blake Olinger - *Initial Author* - [email](mailto:finalyetifive@gmail.com)
