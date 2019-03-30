@@ -7,11 +7,10 @@ methods.
 Compatible with tests run on NodeJS using JEST.
 
 ### Current Functionality
-Call test method via:
-
-test("*message*",
-    Assert.*method*(*input*, *expected*));
+Invoke a Jest test method via:
+Assert.*method*(*input*, *expected*, *message = \"\"*);
     
+Implemented methods:
   * Assert.equals(input, expected);
   * Assert.type(input, expectedType);
 
