@@ -7,6 +7,11 @@ methods.
 Compatible with tests run on NodeJS using JEST.
 
 ### Current Functionality
+Call test method via:
+
+test("*message*",
+    Assert.*method*(*input*, *expected*));
+    
   * Assert.equals(input, expected);
   * Assert.type(input, expectedType);
 
