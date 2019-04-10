@@ -1,0 +1,6 @@
+### Idea IDE ###
+.idea/
+js-unit-test-lib-jest.iml
+
+### lib source files ###
+lib/lib.iml
